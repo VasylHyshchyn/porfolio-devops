@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 
-*, *::before, *::after {
+ *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --bg: #F6FAF8;
+  /* --bg: #F6FAF8; */
   --surface: #FFFFFF;
   --accent: #6FB29A;
   --accent-light: #C8E4D9;
@@ -22,6 +22,7 @@ body {
   background-color: var(--bg);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
+  background-color: #F6FAF8;
 }
 
 a {

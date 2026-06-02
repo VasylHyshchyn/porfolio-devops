@@ -1,0 +1,15 @@
+.projectList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+
+  /* загальний padding сторінки */
+  padding: 3rem;
+
+  /* центрування контейнера */
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /* фон як у твоєму UI */
+  background: #f3fbf7;
+}

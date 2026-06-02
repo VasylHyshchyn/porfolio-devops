@@ -1,0 +1,97 @@
+.dashboard {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: radial-gradient(
+        circle at top,
+        #ecfff7 0%,
+        #f6fffb 40%,
+        #ffffff 100%
+    );
+
+    padding: 40px 20px;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+/* small availability pill */
+.availability {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 14px;
+    color: #6B7A74;
+
+    background: rgba(47, 111, 94, 0.1);
+    border: 1px solid rgba(47, 111, 94, 0.15);
+    font-weight: 600;
+
+    padding: 6px 12px;
+    border-radius: 999px;
+
+    margin-bottom: 20px;
+}
+
+/* main heading */
+.greetings {
+    font-size: 56px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+    line-height: 1.1;
+}
+
+/* accent name (Vasyl) */
+.greetings span {
+    color: #6FB29A;
+}
+
+/* role */
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #374151;
+    margin-top: 12px;
+}
+
+/* description */
+.description {
+    font-size: 16px;
+    color: #6b7280;
+    max-width: 520px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* button */
+.works {
+    margin-top: 28px;
+
+    background: #1f2937;
+    color: white;
+
+    padding: 12px 20px;
+    border-radius: 999px;
+
+    border: none;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: all 0.25s ease;
+}
+
+.works:hover {
+    background: #111827;
+    transform: translateY(-2px);
+}
+
+.works:active {
+    transform: translateY(0);
+}
